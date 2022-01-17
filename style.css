@@ -1,0 +1,403 @@
+*{margin:0; padding:0;}
+.menu {
+    list-style: none;
+    background: #585858;
+    height: 39px;
+    z-index: 5;
+    position: relative;
+    margin-left: 408px;
+}
+.firstmenu{
+	background:#585858;
+	border-bottom:1px solid #ffffff;
+	
+}
+.menu li{
+	float:left;
+	border-left:1px solid #000000;
+	border-right:1px solid #b0b0b3;
+	position:relative;
+	
+}
+.menu li:last-child{
+border-right:none;
+}
+.menu li:first-child{
+border-left:none;
+}
+.menu li a{
+	text-decoration:none;
+	color:white;
+	padding:10px 20px;
+	transition: 0.3s all ease;
+	background:#585858;
+	display:block;
+}
+.menu li a:hover{
+	background:red;
+}
+
+/* DROPDOWN MENU */
+
+.menu li ul{
+	list-style:none;
+	padding:0px;
+	left:-9999px;
+	position:absolute;
+	
+}
+.menu li ul li{
+	float:none;
+	width:200px;
+}
+
+.menu li:hover ul{
+	left:0px;
+}
+.menu li ul li{
+	float:left;
+	border-left:none;
+	border-right:none;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #b0b0b3;
+	position:relative;
+}
+.menu li ul li:last-child{
+border-bottom:none;
+}
+.menu li ul li:first-child{
+border-top:none;
+}
+
+.menu li ul li ul{
+	top:-9999px;
+	position:absolute;
+}
+.menu li ul li:hover ul{
+	top:0;
+	left:200px;
+	
+}
+
+
+.main {
+    margin: 50px auto;
+    width: 1072px;
+    border: 1px solid red;
+    height: 779px;
+    padding: 3px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.galarry{
+    width: 348px;
+    height: 376px;
+    border: 4px solid #a9abad;
+    text-align: center;
+    float: left;
+	
+   
+}
+.img:hover{
+	opacity:1;
+	transition:0.2s all ease;
+}
+.img {
+    width: 252px;
+    height: 225px;
+    padding: 30px;
+    opacity: 0.6;
+	
+    /* padding-bottom: 33px; */
+}
+.marqtag {
+    font-family: arial;
+    font-weight: bold;
+    color: #fffdfd;
+    background: #11ea68a6;
+    padding: 10px 0 10px 2px;
+}
+
+
+/*position effect start */
+
+.postieff {
+    text-align: center;
+    color: tomato;
+    background: #2fff4985;
+    padding: 12px;
+    margin: 122px 37px;
+}
+
+
+
+
+
+footer.footer {
+    background: #ddd;
+    padding: 15px 0px 14px 0px;
+    text-align: center;
+}
+
+.maindiv {
+    width: 960px;
+    border: 2px solid red;
+    margin: 39px auto;
+	padding:33px;
+	
+}
+.mainhover {
+    width: 300px;
+	
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.mainhover img{
+	width:300px;
+    height:200px;
+	vertical-align:middle;
+	
+}
+.maininner1 {
+    position: absolute;
+    top:0;
+    left:0;
+    color: white;
+    text-align: center;
+    background: #b400ff6e;
+    width: 300px;
+    height: 200px;
+	opacity:0;
+	transition:all 0.3s ease;
+}
+.maininner2 {
+    position: absolute;
+    top:0;
+    left:0;
+    color: white;
+    text-align: center;
+    background: #b400ff6e;
+    width: 300px;
+    height: 200px;
+	opacity:0;
+	transition:all 0.3s ease;
+}.maininner3 {
+    position: absolute;
+    top:0;
+    left:0;
+    color: white;
+    text-align: center;
+    background: #b400ff6e;
+    width: 300px;
+    height: 200px;
+	opacity:0;
+	transition:all 0.3s ease;
+}
+.maininner4 {
+    position: absolute;
+    top:0;
+    left:0;
+    color: white;
+    text-align: center;
+    background: #b400ff6e;
+    width: 300px;
+    height: 200px;
+	opacity:0;
+	transition:all 0.3s ease;
+}
+.maininner5 {
+    position: absolute;
+    top:0;
+    left:0;
+    color: white;
+    text-align: center;
+    background: #b400ff6e;
+    width: 300px;
+    height: 200px;
+	opacity:0;
+	transition:all 0.3s ease;
+}
+.maininner6 {
+    position: absolute;
+    top:0;
+    right:-9999px;
+    color: white;
+    text-align: center;
+    background: #b400ff6e;
+    width: 300px;
+    height: 200px;
+	opacity:0;
+	transition:all 0.3s ease;
+}
+
+.mainhover:hover .maininner1{
+	opacity:1;
+	width:300px;
+	height:200px;
+	transform: rotate(360deg);
+}
+.mainhover:hover .maininner2{
+	opacity:1;
+	width:300px;
+	height:200px;
+	
+}
+.mainhover:hover .maininner3{
+	opacity:1;
+	width:300px;
+	height:200px;
+	transform: rotate(360deg);
+}
+.mainhover:hover .maininner4{
+	opacity:1;
+	width:300px;
+	height:200px;
+	
+}
+.mainhover:hover .maininner5{
+	opacity:1;
+	width:300px;
+	height:200px;
+	transform: rotate(360deg);
+}
+.mainhover:hover .maininner6{
+	opacity:1;
+	right:0px;
+	width:300px;
+	height:200px;
+	
+}
+
+
+
+
+
+
+
+.maininner1 h3 {
+    margin-top: 58px;
+}
+.maininner2 h3 {
+    margin-top: 58px;
+}
+.maininner3 h3 {
+    margin-top: 58px;
+}
+.maininner4 h3 {
+    margin-top: 58px;
+}
+.maininner5 h3 {
+    margin-top: 58px;
+}
+.maininner6 h3 {
+    margin-top: 58px;
+}
+.mainbefore{
+	text-align:center;
+	margin:60px;
+}
+.effect{
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;
+	background:blue;
+	color:white;
+	padding:15px 40px;
+	border-radius:10px;
+	position:relative;
+	z-index:3;
+	display:inline-block;	
+}
+.effect1{
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;
+	background:#ccff00;
+	color:white;
+	padding:15px 40px;
+	border-radius:10px;
+	position:relative;
+	z-index:3;
+	display:inline-block;	
+}
+.effect2{
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;
+	background:#00ffc4;
+	color:white;
+	padding:15px 40px;
+	border-radius:10px;
+	position:relative;
+	z-index:3;
+	display:inline-block;	
+}
+.effect:before{
+	content:" ";
+	top:0;
+	left:0;
+	width:0;
+	height:100%;
+	border-radius:10px;
+	background:#ccff00;
+	position:absolute;
+	transition:0.9s;
+	z-index:-1;
+}
+.effect1:before{
+	content:" ";
+	top:0;
+	left:0;
+	width:0;
+	height:100%;
+	border-radius:10px;
+	background:#e91cb4;
+	position:absolute;
+	transition:0.9s;
+	z-index:-1;
+}
+.effect2:after{
+	content:" ";
+	top:0;
+	right:0;
+	width:0;
+	height:100%;
+	border-radius:10px;
+    background: #ff5f02;
+	position:absolute;
+	transition:0.9s;
+	z-index:-1;
+}
+.effect:after{
+	content:" ";
+	top:0;
+	right:0;
+	width:0;
+	height:100%;
+	border-radius:10px;
+	background:#00ffc4;
+	position:absolute;
+	transition:0.9s;
+	z-index:-1;
+}
+.effect:hover:before{
+	width:51%;	
+	border-radius:10px 0px 0px 10px;
+	padding:0px;
+}
+.effect1:hover:before{
+	width:100%;
+}
+.effect:hover:after{
+	width:51%;
+	border-radius:0px 10px 10px 0px;
+	padding:0px;
+}
+.effect2:hover:after{
+	width:100%;
+	
+}
+
